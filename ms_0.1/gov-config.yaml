@@ -1,0 +1,26 @@
+ms_0.1:
+  core:
+    name: ms_0.1
+    service: ms_0.1
+    namespace: default
+    version: 0.0.1
+    requirement-id: '12900'
+    ownership: OMI
+    responsible:
+      name:
+      e-mail:
+      id:
+    pod:
+      number-replicas:
+      container-name: ms_0.1
+      registry:
+      image: ms_0.1
+      port:
+        name: spring.server-port
+        port: '8865'
+  api:
+  relation:
+  deployment:
+    environment:
+    release-no:
+    responsible:
